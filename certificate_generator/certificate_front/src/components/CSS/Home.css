@@ -1,0 +1,34 @@
+.curve {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(156% + 1.3px);
+  height: 100px;
+}
+
+.curve .shape-fill {
+  fill: pink;
+}
+
+.curve-top {
+  background-color: pink;
+}
+
+.CreatePDF:hover {
+  border-radius: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  color: white;
+}
+.CreatePDF:hover {
+  transition-duration: 250ms;
+  background-color: #ec4899;
+}
